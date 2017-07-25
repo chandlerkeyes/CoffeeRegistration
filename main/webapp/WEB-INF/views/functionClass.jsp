@@ -14,13 +14,15 @@
 <fieldset>
 Hello ${FirstName} ${LastName}
 <h3> Order Options:</h3>
- <ul>
-    <li>Carmel Frappe</li>
-    <li>Mocha Frappe</li>
-    <li>Carmel Mocha </li>
-    <li>Green Tea</li>
-    <li>Jasmine Tea</li>
-</ul>
+    <label><input type="checkbox" name="CF"> Carmel Frappe</label>
+    <br>
+    <label><input type="checkbox" name="MF"> Mocha Frappe</label>
+    <br>
+    <label><input type="checkbox" name="CM"> Carmel Mocha</label>
+    <br>
+    <label><input type="checkbox" name="GT"> Green Tea</label>
+    <br>
+    <label><input type="checkbox" name="JT"> Jasmine Tea</label>
 </fieldset>
 </body>
 </html>

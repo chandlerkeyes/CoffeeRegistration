@@ -20,6 +20,11 @@ ${developerName}
         font-style: italic;
         color: aquamarine;
         border: dotted;
+        text-align: center;
+    }
+    a{
+        text-align: center;
+        size: 40pt;
     }
     body {
         background: cadetblue;
